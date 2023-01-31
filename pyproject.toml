@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "UnhackedCTF"
 version = "0.1.0"
-description = "UnhackedCTF implemented with Ape, exploits with Vyper"
-authors = "0xJCN"
+description = "UnhackedCTF implementation with Ape, exploits with Vyper"
+authors = ["0xJCN"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
