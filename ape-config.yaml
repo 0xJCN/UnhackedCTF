@@ -1,0 +1,23 @@
+name: UnhackedCTF
+
+default_ecosystem: ethereum
+ethereum:
+  default_network: mainnet-fork
+  mainnet_fork:
+    default_provider: foundry
+
+foundry:
+  fork:
+    ethereum:
+      mainnet:
+        upstream_provider: alchemy
+    fantom:
+      opera:
+        upstream_provider: 'https://rpc.ankr.com/fantom/'
+
+plugins:
+  - name: vyper
+  - name: foundry
+  - name: alchemy
+  - name: etherscan
+  - name: fantom
